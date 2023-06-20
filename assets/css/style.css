@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 60px;
+    background: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-card{
+    height: 600%;
+    width:100%;
+    max-width: 450px;
+    text-align: center;
+    display: flex;
+    background: #fff;
+    color:#333;
+
+}
+.cover-pic{
+    display: block;
+    width: 100%;
+}
+.profile-pic{
+    width: 140px;
+    border-radius: 100%;
+    margin-top: -70px;
+}
+.profile-pic:hover{
+    box-shadow: 0 0 0 5px red ; 
+    transition: 0.5s;
+}
+.profile-card h2{
+    font-weight: 400;
+}
+.follow-button{
+    display: inline-block;
+    text-decoration: none;
+    border: 20px yellow;
+    margin: 25px,0;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.row h2{
+    font-weight: 100;
+    font-size: 30px;
+}
